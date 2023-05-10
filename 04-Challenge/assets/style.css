@@ -1,0 +1,33 @@
+.hide {
+    display: none;
+}
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(119, 119, 119);
+}
+
+#start-button {
+    width: min-content;
+}
+
+.answer-choices {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    margin: auto; 
+}
+
+
+button {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    margin: 5px;
+    font-size: 20px; 
+    border-radius: 40%;
+}
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+}
